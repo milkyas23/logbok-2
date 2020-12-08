@@ -12,6 +12,7 @@ import java.time.LocalTime;
 
 public class logbok<mvciew> {
     mvcview view;
+    PrintWriter out = null;
 
     public logbok() {
         JFrame frame = new JFrame("MVCViewForm");
@@ -22,6 +23,13 @@ public class logbok<mvciew> {
         frame.setVisible(true);
         view.addListener(new PublishListener());
         System.out.println(view.getText());
+        try {
+            out = new PrintWriter(new BufferedWriter(new FileWriter(textFile)));
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 
@@ -48,7 +56,7 @@ public class logbok<mvciew> {
         }
 
 
-    String textFile = "meddelande.txt";
+    String textFile = "Logbok.txt";
     String data = "medelande";
 
     private void CharStreamExample() throws IOException {
@@ -75,6 +83,8 @@ public class logbok<mvciew> {
 
     private class PublishListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
+            out.println(view.getText() + " " + view.getUsername());
+            out.flush();
             System.out.println(view.getText() + " " + view.getUsername());
         }
     }

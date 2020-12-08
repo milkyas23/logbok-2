@@ -1,12 +1,10 @@
 import javax.swing.*;
-import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 class mvcview {
     public JPanel mvcpannel;
     private JButton publish;
     private JTextArea medelande;
-    private JTable table1;
     private JTextArea username;
 
     public mvcview() {}
