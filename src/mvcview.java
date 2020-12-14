@@ -4,8 +4,14 @@ import java.awt.event.ActionListener;
 class mvcview {
     public JPanel mvcpannel;
     private JButton publish;
-    private JTextArea medelande;
+
+    public JTextArea getMeddelandTable() {
+        return MeddelandeTable;
+    }
+
+    private JTextArea meddelande;
     private JTextArea username;
+    private JTextArea MeddelandeTable;
 
     public mvcview() {}
 
@@ -25,7 +31,7 @@ class mvcview {
         return username.getText();
     }
 
-    public String getText() { return medelande.getText();
+    public String getText() { return meddelande.getText();
     }
 
     public JPanel getmcvpannel() {

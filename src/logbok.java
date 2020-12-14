@@ -57,7 +57,7 @@ public class logbok<mvciew> {
 
 
     String textFile = "Logbok.txt";
-    String data = "medelande";
+    String data = "Meddelande";
 
     private void CharStreamExample() throws IOException {
         PrintWriter out = null;
@@ -85,7 +85,8 @@ public class logbok<mvciew> {
         public void actionPerformed(ActionEvent e) {
             out.println(view.getText() + " " + view.getUsername());
             out.flush();
-            System.out.println(view.getText() + " " + view.getUsername());
+            view.getMeddelandTable().append (LocalDateTime.now().now()+view.getText() + " " + view.getUsername()+ "\n");
+
         }
     }
 
