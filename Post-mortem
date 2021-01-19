@@ -1,0 +1,17 @@
+# logbok-2
+Loggbok
+Syftet med denna arbetet är att designa och skapa en väl fungerande loggbok med ett central att texten ska skrivas och sparas av en användare vid en tidpunkt och det ska gå att komma åt texten efter att programmen stängs ner.
+Bland de teknik jag har använt är GUI form för att ska kunna designa Loggboken. 
+Mitt planeringsarbete är att skapa en to do list för att jobba med arbetets centrala innehåll och till min hjälp så hade jag projekts i mitt git repository. Sedan skrevs to do list i projekts med de viktiga saker överst och listan blev som följande; Implementation av code, gör en display för loggbok, gör loggbok sparbar, gör så att det går att  komma åt texten efter att programmen stängs ner, skapa en funktion som skriver datum där loggboken redigerades.   
+De positiva erfarenheter är att jag lyckade designa och skapa loggboken i tid, och det beror på att jag följde mitt planeringsarbete.
+De negativa erfarenheter är att jag insåg att loggboken kunde förbättrat designmässigt, och det beror på att jag prioriterade funktionalitet istället.   
+Mina erfarenheter och lärdomar var stort, jag lärde mig hur GUI form fungerar och hur man skriver nya funktioner exempelvis  hur man skriver ut ett nuvarande datum och tid men designmässigt så finns det finns ett stort utrymme för utveckling. 
+
+När du ser tillbaka på projektet, vilka delar skulle du löst annorlunda? Vi ska lära av våra "misstag", även om vi inte visste om dem när vi började.
+Jag skulle ha ändrat hur loggboken sparas. 
+
+Försök analysera din tidsanvändning. Vad la du för mycket tid på och vad borde du fokuserat på istället. Det är viktigt att ta med sig den kunskapen till framtida projekt.
+Jag log lite för mycket tid för att implementera koden hi har haft tidigare och vad jag borde fokuserat på är att skriva kod och sedan implementera viktiga kod. 
+
+Vilka delar av projektet känner du att du behöver bli bättre på i framtiden.
+jag känner mig att jag behöver bli bättre på att skriva lite mer if-satser.  
